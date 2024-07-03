@@ -10,7 +10,6 @@
     border-radius: 24px;
     margin-bottom: 50px;
     position: relative;
-    /* Add position relative to use absolute positioning */
 }
 
 #employee-name {
@@ -21,7 +20,6 @@
     font-weight: 700;
     line-height: normal;
     margin-bottom: 10px;
-    /* Added margin bottom for spacing */
 }
 
 #employee-designation {
@@ -32,7 +30,6 @@
     font-weight: 400;
     line-height: normal;
     margin-bottom: 10px;
-    /* Added margin bottom for spacing */
 }
 
 #card-right-smedia {
@@ -41,14 +38,11 @@
     flex-shrink: 0;
     position: absolute;
     top: 200px;
-    /* Adjust position from top */
     right: 30px;
-    /* Adjust position from right */
 }
 
 #card-right-smedia img {
     margin-right: 20px;
-    /* Adjust spacing between images */
     flex-shrink: 0;
     height: 43px;
     border-radius: 100px;
@@ -58,14 +52,11 @@
 #logo-container {
     position: absolute;
     top: 10px;
-    /* Adjust the distance from the top */
     right: 20px;
-    /* Adjust the distance from the right */
 }
 
 #logo-container img {
     max-width: 300px;
-    /* Adjust the maximum width of the logo */
     max-height: 300px;
 }
 
@@ -75,8 +66,6 @@
     border-radius: 50%;
     object-fit: cover;
     margin-left: auto;
-    /* Move the employee photo to the right */
     margin-right: 20px;
-    /* Adjust spacing */
     margin-bottom: 5px;
 }
